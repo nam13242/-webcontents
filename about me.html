@@ -2,8 +2,61 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자기소개</title>
+    <style>
+         body{
+            text-align: center;/*중앙정렬*/
+        }
+        main{
+            text-align: center/*중앙정렬*/;
+        }
+        main ul { 
+            list-style: none; /* 기본 목록 스타일 제거 */
+            padding: 0;
+        }
+        main ul li{
+            display: inline-block; /* 목록 항목을 가로로 배치 */
+            margin: 0 10px; /* 항목 간 간격 추가 */
+        }
+        nav ul {
+            list-style: none; /* 기본 목록 스타일 제거 */
+            padding: 0;
+        }
+        nav ul li {
+            display: inline-block; /* 목록 항목을 가로로 배치 */
+            margin: 0 10px; /* 항목 간 간격 추가 */
+        }
+        nav ul li a {
+            text-decoration: none; /* 링크 밑줄 제거 */
+            color: darkblue; /* 링크 색상 설정 */
+        }
+        nav ul li a:hover {
+            color: pink; /* 마우스 올릴 시 색상 변경 */
+            text-decoration: underline; /* 마우스 올릴 시 밑줄 추가 */
+        }
+        table {
+            margin: auto; /* 표 중앙 정렬 */
+            border-collapse: collapse; /* 테두리 겹침 제거 */
+        }
+        th, td {
+            padding: 10px;
+            text-align: center; /* 셀 내용 중앙 정렬 */
+        }
+        h1{
+            font-family: time new Roman, serif; /* 제목 폰트 설정 */
+        }
+        footer{
+            
+        }
+        footer a {
+            text-decoration: none; /* 링크 밑줄 제거 */
+            color: darkblue; /* 링크 색상 설정 */
+        }
+        footer a:hover {
+            color: pink; /* 마우스 올릴 시 색상 변경 */
+            text-decoration: underline; /* 마우스 올릴 시 밑줄 추가 */
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -39,7 +92,7 @@
 
 
     <section id="hobby">
-        <h3>취미 활동</h3></a>
+        <h2>취미 활동</h2></a>
     <hr>
     <p>음악, 영화, 음식</p>
     <figure>
@@ -50,7 +103,7 @@
     </section>
 
     <section id="scedule">
-        <h4>강의 시간표</h4></a>
+        <h2>강의 시간표</h2></a>
     <hr>
     <table border="1">
     <caption>2025년 1학기 강의 시간표</caption>
@@ -77,6 +130,9 @@
             </table>
         </section>
     </main>
+    <footer>
+    <hr>
     <a href="file:///C:/webcontent/2025108122/%EC%84%A4%EB%AC%B8%EC%A7%80.html" target="_blank">설문조사</a>
+    </footer>
 </body>
 </html>
